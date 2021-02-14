@@ -212,11 +212,12 @@ box-shadow: -1px 4px 6px -6px rgba(0,0,0,0.75);
 
 .footer-sec{
 	width: 100%;
-	background:#DCDCDC;
+	/*background:#DCDCDC;*/
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	padding: 40px 0;
+	background-color:#DCDCDC;
 }
 .footer-sec h2{
 	font-size: 28px;
