@@ -3,8 +3,11 @@
 		margin: 60px 0;
 		border: 2px solid #e6f2ff;
 	}
+	#service-des{
+		margin-bottom: 150px;
+		border-bottom: 5px solid #375668;
 	/**S-class**/
-	 .abt-main,.blog-main,.car-main,.con-main-p,.prod-main,.service-des,.all-select{
+	 .abt-main,.blog-main,.car-main,.con-main-p,.prod-main,.all-select{
 		 margin-bottom: 150px;
 		 border-bottom: 5px solid #375668;
 	/****ids***/
