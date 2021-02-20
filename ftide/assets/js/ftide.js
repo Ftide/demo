@@ -77,3 +77,24 @@ document.getElementById('all-s').onclick = function() {
     checkbox.checked = this.checked;
   }
 }   
+/**Mob**/
+document.getElementById('all-mob').onclick = function() {
+  var checkboxes = document.getElementsByName('mobs');
+  for (var checkbox of checkboxes) {
+    checkbox.checked = this.checked;
+  }
+}   
+/**Win**/
+document.getElementById('all-win').onclick = function() {
+  var checkboxes = document.getElementsByName('wins');
+  for (var checkbox of checkboxes) {
+    checkbox.checked = this.checked;
+  }
+}   
+/**Promote**/
+document.getElementById('all-prom').onclick = function() {
+  var checkboxes = document.getElementsByName('proms');
+  for (var checkbox of checkboxes) {
+    checkbox.checked = this.checked;
+  }
+}   
