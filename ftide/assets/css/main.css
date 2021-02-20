@@ -407,6 +407,7 @@ border-radius: 4px;
 }
 .sidewrap{
   border:1px solid #fbb003;
+  padding: 5px;
 }
 .sidewrap ul li{
   list-style-type: none;
@@ -417,7 +418,7 @@ border-radius: 4px;
   display: block;
   background-color: #fbb003;
   border-bottom: 1px dotted #fff;
-  padding: 5px;
+  padding: 5px 10px;
   color: #fff;
   font-size: 18px;
 }
