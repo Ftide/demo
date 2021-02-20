@@ -387,6 +387,43 @@ border-radius: 4px;
      background-position: center;
      height: 350px;
 }
+.about-sec-text{
+  padding: 40px 0
+}
+.about-text h2{
+  position: relative;
+}
+.about-text h2::after{
+  position: absolute;
+    display: block;
+    content: "";
+    top: 40px;
+    left: 0;
+    background-color: #ffb002;
+    width: 100px;
+    height: 3px;
+    margin: 0;
+    right: 0;
+}
+.sidewrap{
+  border:1px solid #fbb003;
+}
+.sidewrap ul li{
+  list-style-type: none;
+  font-size: 18px;
+}
+.sidewrap ul li a{
+  text-decoration: none;
+  display: block;
+  background-color: #fbb003;
+  border-bottom: 1px dotted #fff;
+  padding: 5px;
+  color: #fff;
+  font-size: 18px;
+}
+.sidewrap ul li a:hover{
+  background-color: #1a1b4b;
+}
 @media(min-width: 576px){
 
 }
