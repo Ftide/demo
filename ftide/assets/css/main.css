@@ -392,6 +392,7 @@ border-radius: 4px;
 }
 .about-text h2{
   position: relative;
+  color: #1a1b4b;
 }
 .about-text h2::after{
   position: absolute;
@@ -414,7 +415,9 @@ border-radius: 4px;
 }
 .sidewrap ul li{
   list-style-type: none;
-  font-size: 18px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1a1b4b;
 }
 .sidewrap ul li a{
   text-decoration: none;
@@ -424,6 +427,7 @@ border-radius: 4px;
   padding: 5px 10px;
   color: #fff;
   font-size: 18px;
+  font-weight: 400;
 }
 .sidewrap ul li a:hover{
   background-color: #1a1b4b;
