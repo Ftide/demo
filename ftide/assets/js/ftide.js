@@ -69,9 +69,10 @@ $(document).on("scroll",function(){
 
 });
 document.getElementById("year").innerHTML = new Date().getFullYear();
-/**Check boxes**/
+
+/**Check boxes-Editted By Anirban**/
 document.getElementById('all-s').onclick = function() {
-  var checkboxes = document.getElementsByName('sitemap');
+  var checkboxes = document.getElementsByName('webs');
   for (var checkbox of checkboxes) {
     checkbox.checked = this.checked;
   }
