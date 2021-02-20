@@ -98,3 +98,9 @@ document.getElementById('all-prom').onclick = function() {
     checkbox.checked = this.checked;
   }
 }   
+function alert2(){
+    alert("Thanks For The Order");
+}
+function alert1(){
+    alert("Thanks For Requesting Quote");
+}
