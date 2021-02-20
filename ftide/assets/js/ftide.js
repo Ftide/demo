@@ -69,3 +69,10 @@ $(document).on("scroll",function(){
 
 });
 document.getElementById("year").innerHTML = new Date().getFullYear();
+/**Check boxes**/
+document.getElementById('all-s').onclick = function() {
+  var checkboxes = document.getElementsByName('sitemap');
+  for (var checkbox of checkboxes) {
+    checkbox.checked = this.checked;
+  }
+}   
