@@ -68,3 +68,4 @@ $(document).on("scroll",function(){
 
 
 });
+document.getElementById("year").innerHTML = new Date().getFullYear();

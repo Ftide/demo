@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 
     <link rel="stylesheet" type="text/css" href="assets/css/header-footer.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/real.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/contact.css">
     <link rel="stylesheet" type="text/css" href="assets/animation/animate.css">
     <link rel="stylesheet" type="text/css" href="assets/slick/slick.css" />
     <link rel="shortcut icon" href="assets/images/logo.png" />
@@ -90,28 +91,94 @@
     </header>
 
   <!--body-main-->
-  <main>
-      <div class="con-main-p">
-        <div class="con-p">
-            <h5>Contact Us</h5>
-            <form>
-              <label for="name">Name:</label>
-              <input type="text" id="name" name="name"><br>
-              <label for="phone">Phone No:</label>
-              <input type="text" id="phone" name="phone"><br>
-              <label for="email">Email:</label>
-              <input type="text" id="email" name="email"><br>
-              <label for="add">Address:</label>
-              <input type="text" id="add" name="address"><br>
-              <label for="mes">Message:</label>
-              <textarea id="mes" name="message"></textarea><br>
-              <input class="btn-info d-block" type="submit" value="Submit">
-            </form>  
-           </div>
+
+   <section class="about-sec">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            
+          </div>
         </div>
-  </main>
+      </div>
+    </section>
+
+     <section class="contact-page-section">
+  <div class="container">
+    <div class="sec-title">
+      <div class="title">Contact Us</div>
+      <h2>Let's Get in Touch.</h2>
+    </div>
+    <div class="inner-container">
+      <div class="row clearfix">
+
+        <!--Form Column-->
+        <div class="form-column col-lg-8 col-md-6 col-sm-12 col-xs-12">
+          <div class="inner-column">
+
+            <!--Contact Form-->
+            <div class="contact-form">
+              <form method="post" action="contact.php" id="contact-form">
+                <div class="row clearfix">
+                  <div class="form-group col-lg-6 col-md-12 col-sm-6 co-xs-12">
+                    <input type="text" name="name" value="" placeholder="Name" required>
+                  </div>
+                  <div class="form-group col-lg-6 col-md-12 col-sm-6 co-xs-12">
+                    <input type="email" name="email" value="" placeholder="Email" required>
+                  </div>
+                   <div class="form-group col-lg-6 col-md-12 col-sm-6 co-xs-12">
+                    <input type="text" class="js-input-mobile" name="phone" value="" placeholder="Phone" required>
+                  </div>
+                  <div class="antispam w50">
+                      <p class="">Leave this empty:
+                      <br /><input name="url" /></p>
+                  </div>
+                  <div class="form-group col-lg-6 col-md-12 col-sm-6 co-xs-12">
+                    <input type="text" name="company" value="" placeholder="Company" required>
+                  </div>
+                  <div class="form-group col-md-12 col-sm-12 co-xs-12">
+                    <textarea name="message" placeholder="Massage"></textarea>
+                  </div>
+                  <div class="form-group col-md-12 col-sm-12 co-xs-12">
+                    <button type="submit" class="theme-btn btn-style-one">Send Now</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <!--End Contact Form-->
+
+          </div>
+        </div>
+
+        <!--Info Column-->
+        <div class="info-column col-lg-4 col-md-6 col-sm-12 col-xs-12">
+          <div class="inner-column">
+            <h2>Contact Info</h2>
+            <ul class="list-info">
+              <li><i class="fas fa-map-marked-alt"></i>Survey No. 42/P16, 102/1, Seethanayakana halli, Lakkur hobli, Malur Taluk, Kolar District. Pin: 563160</li>
+              <li><i class="fa fa-envelope-o"></i><i class="fa fa-envelope-o"></i><i class="fa fa-envelope-o"></i><i class="fa fa-envelope-o"></i><i class="fa fa-envelope-o"></i>ftide.tech@gmail.com</li>
+              <li><i class="fas fa-phone"></i>+91 9845576919 <br> +91 9886467658</li>
+            </ul>
+            <ul class="social-icon-four">
+              <li class="follow">Follow on: </li>
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin"></i></i></a></li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<style type="text/css">
+  .antispam{
+    display: none;
+  }
+</style>
   <!----------------------------------------------------------------------------------------------Footer Start------------------------------------------------------->
-       <footer>
+  <footer>
       <div class="footer-sec py-4 ">
           <div class="container">
               <div class="row ">
@@ -177,7 +244,7 @@
           <div class="container">
               <div class="row align-items-center">
                   <div class="col col-12 col-md-6">
-                      <p class="text-md-left">© 2020, Ftide Technologies All rights reserved</p> 
+                      <p class="text-md-left">© <span id="year"></span>, Ftide Technologies All rights reserved</p> 
                   </div>
                   <div class="col col-12 col-md-6">
                       <a class="text-md-right" href="#" target="_blank">Powered By Ftide Technologies</a>
