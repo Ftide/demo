@@ -425,7 +425,12 @@ border-radius: 4px;
 .sidewrap ul li a:hover{
   background-color: #1a1b4b;
 }
-
+.sidewrap .fas{
+  font-size: 16px;
+}
+.fa-mobile-alt{
+  font-size: 20px !important;
+}
 @media(min-width: 576px){
 
 }
