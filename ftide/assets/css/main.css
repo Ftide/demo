@@ -511,16 +511,16 @@ border-radius: 4px;
 @media(min-width: 768px){
 	/*****Index Page*****/
 	.main-content{
-		height:90vh;
+		height:75vh;
 	}
 	.main-content1{
-		height:90vh;
+		height:75vh;
 	}
 	.main-content2{
-		height:90vh;
+		height:75vh;
 	}
 	.main-content3{
-		height:90vh;
+		height:75vh;
 	}
 	.h-service-text h3{
 		text-align: left;
