@@ -13,6 +13,9 @@
 	a{
 		text-decoration: none;
 	}
+  .fa-angle-double-right{
+    display: none!important;
+  }
 .loader_bg {
      position: fixed;
      z-index: 9999999;
