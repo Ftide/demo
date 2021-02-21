@@ -65,7 +65,17 @@ $(document).on("scroll",function(){
     setTimeout(function () {
         $('.loader_bg').fadeToggle();
      }, 1500);
-
+ (function () {
+            var options = {
+                whatsapp: "+918794928179", // WhatsApp number
+                call_to_action: "WhatsApp Inquiry", // Call to action
+                position: "right", // Position may be 'right' or 'left'
+            };
+            var proto = document.location.protocol, host = "whatshelp.io", url = proto + "//static." + host;
+            var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+            s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+            var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+        })();
 
 });
 document.getElementById("year").innerHTML = new Date().getFullYear();
