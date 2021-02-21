@@ -393,11 +393,24 @@ border-radius: 4px;
 .about-sec-text{
   padding: 40px 0
 }
-.about-text h2{
-  position: relative;
-  color: #1a1b4b;
+.about-sec-text h2{
+    width: 100%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 33px;
+    font-style: italic;
+    color: #8e8e8e;
 }
-.about-text h2::after{
+.about-sec-text h3{
+  text-transform: capitalize;
+    color: #1a1b4b;
+    margin-bottom: 10px;
+    font-size: 36px;
+    margin: 0;
+    padding: 0;position: relative;
+}
+.about-sec-text h3::after{
   position: absolute;
     display: block;
     content: "";
@@ -523,7 +536,7 @@ border-radius: 4px;
 	h2{
 		font-size: 36px;
 	}
-  .about-text h2::after{
+  .about-sec-text h3::after{
     top: 40px;
   }
 }
