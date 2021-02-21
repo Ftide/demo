@@ -71,7 +71,7 @@
 	padding: 50px 0;
 }
 .main-content1{
-	background:url(../images/banner2.jpg);
+	background:linear-gradient(rgba(251,176,3,0.1),rgba(251,176,3,0.1)),url(../images/banner2.jpg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -88,7 +88,7 @@
 	padding: 50px 0;
 }
 .main-content3{
-	background:url(../images/banner4.jpg);
+	background:linear-gradient(rgba(251,176,3,0.1),rgba(251,176,3,0.1)),url(../images/banner4.jpg);
 	width: 100%;
 	background-size: cover;
 	background-position: center;
