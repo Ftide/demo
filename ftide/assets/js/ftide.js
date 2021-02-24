@@ -104,13 +104,13 @@ document.getElementById('all-mob').onclick = function() {
     mobox2.checked = this.checked;
   }
 }   */
-/**Win**/
+/**Win**//*
 document.getElementById('all-win').onclick = function() {
   var checkboxes = document.getElementsByName('wins');
   for (var checkbox of checkboxes) {
     checkbox.checked = this.checked;
   }
-}   
+}  */ 
 /**Promote**/
 document.getElementById('all-prom').onclick = function() {
   var checkboxes = document.getElementsByName('proms');
