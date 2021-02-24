@@ -207,7 +207,7 @@ function validateForm3(){
         return false;
     }
 }
-    //Promote
+   /* //Promote
 function validateForm4(){
     var valid = false;
     if(document.getElementById("wsmap").checked){
@@ -256,5 +256,5 @@ function validateForm4(){
         alert("Please Select atleast one option");
         return false;
     }
-}
+}*/
     
