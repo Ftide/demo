@@ -209,47 +209,47 @@ function validateForm3(){
 }
   
 function validateForm4(){
-    var valid = false;
+    var alid = false;
     if(document.getElementById("wsmap").checked){
-        valid = true;
+        alid = true;
     }
     if(document.getElementById("logod").checked){
-        valid = true;
+        alid = true;
     }
     if(document.getElementById("mseop").checked){
-        valid = true;
+        alid = true;
     }
     if(document.getElementById("sme").checked){
-        valid = true;
+        alid = true;
     }
     if(document.getElementById("leadg").checked){
-        valid = true;
+        alid = true;
     }
     if(document.getElementById("conm").checked){
-        valid = true;
+        alid = true;
     }
     if(document.getElementById("vida").checked){
-        valid = true;
+        alid = true;
     }
     if(document.getElementById("bph").checked){
-        valid = true;
+        alid = true;
     }
     if(document.getElementById("offc").checked){
-        valid = true;
+        alid = true;
     }
     if(document.getElementById("prev").checked){
-        valid = true;
+        alid = true;
     }
     if(document.getElementById("leafp").checked){
-        valid = true;
+        alid = true;
     }
     if(document.getElementById("bnrp").checked){
-        valid = true;
+        alid = true;
     }
     if(document.getElementById("spone").checked){
-        valid = true;
+        alid = true;
     }
-	    if(valid){
+	if(alid){
         alert("Thanks For Submitting!!!");
     }
     else{
