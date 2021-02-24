@@ -111,13 +111,13 @@ document.getElementById('all-win').onclick = function() {
     checkbox.checked = this.checked;
   }
 }  */ 
-/**Promote**/
+/**Promote**//*
 document.getElementById('all-prom').onclick = function() {
   var checkboxes = document.getElementsByName('proms');
   for (var checkbox of checkboxes) {
     checkbox.checked = this.checked;
   }
-}   
+}   */
 /*******Form Validiation Service In All-By Anirban******/
 function validateForm(){
     var valid = false;
