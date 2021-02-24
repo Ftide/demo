@@ -95,14 +95,15 @@ document.getElementById('all-s').onclick = function() {
   for (var checkbox of checkboxes) {
     checkbox.checked = this.checked;
   }
-}   
-/**Mob**/
+} 
+
+/**Mob**//*
 document.getElementById('all-mob').onclick = function() {
   var mobox = document.getElementsByName('mobs');
   for (var mobox2 of mobox) {
     mobox2.checked = this.checked;
   }
-}   
+}   */
 /**Win**/
 document.getElementById('all-win').onclick = function() {
   var checkboxes = document.getElementsByName('wins');
