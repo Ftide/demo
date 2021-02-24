@@ -124,4 +124,107 @@ function alert1(){
     alert("Thanks For Requesting Quote");
 }
 /*******Form Validiation Service In All******/
-
+function validateForm(){
+    var valid = false;
+    //web
+    if(document.getElementById("smap").checked){
+        valid = true;
+    }
+    if(document.getElementById("wframe").checked){
+        valid = true;
+    }
+    if(document.getElementById("wdev").checked){
+        valid = true;
+    }
+    if(document.getElementById("relm").checked){
+        valid = true;
+    }
+    if(document.getElementById("upgr").checked){
+        valid = true;
+    }
+    if(document.getElementById("seow").checked){
+        valid = true;
+    }
+    //Mobile
+    if(document.getElementById("msmap").checked){
+        valid = true;
+    }
+    if(document.getElementById("mwframe").checked){
+        valid = true;
+    }
+    if(document.getElementById("mwdev").checked){
+        valid = true;
+    }
+    if(document.getElementById("mrelm").checked){
+        valid = true;
+    }
+    if(document.getElementById("mmupgr").checked){
+        valid = true;
+    }
+    if(document.getElementById("mmeow").checked){
+        valid = true;
+    }
+    //Desktop
+    if(document.getElementById("wsmap").checked){
+        valid = true;
+    }
+    if(document.getElementById("wwframe").checked){
+        valid = true;
+    }
+    if(document.getElementById("wwdev").checked){
+        valid = true;
+    }
+    if(document.getElementById("wrelm").checked){
+        valid = true;
+    }
+    if(document.getElementById("wupgr").checked){
+        valid = true;
+    }
+    if(document.getElementById("wseow").checked){
+        valid = true;
+    }
+    //Promote
+    if(document.getElementById("logod").checked){
+        valid = true;
+    }
+    if(document.getElementById("mseop").checked){
+        valid = true;
+    }
+    if(document.getElementById("sme").checked){
+        valid = true;
+    }
+    if(document.getElementById("leadg").checked){
+        valid = true;
+    }
+    if(document.getElementById("conm").checked){
+        valid = true;
+    }
+    if(document.getElementById("vida").checked){
+        valid = true;
+    }
+    if(document.getElementById("bph").checked){
+        valid = true;
+    }
+    if(document.getElementById("offc").checked){
+        valid = true;
+    }
+    if(document.getElementById("prev").checked){
+        valid = true;
+    }
+    if(document.getElementById("leafp").checked){
+        valid = true;
+    }
+    if(document.getElementById("bnrp").checked){
+        valid = true;
+    }
+    if(document.getElementById("spone").checked){
+        valid = true;
+    }
+    if(valid){
+        alert("Done");
+    }
+    else{
+        alert("Please Select One");
+        return false;
+    }
+}
