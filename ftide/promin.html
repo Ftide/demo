@@ -216,7 +216,17 @@
           </div><!-- eo row -->
       </div><!-- eo conatiner -->
   </footer> 
-  
+  <script>
+    {
+      document.getElementById('all-prom').onclick = function() {
+  var checkboxes = document.getElementsByName('proms');
+  for (var checkbox of checkboxes) {
+    checkbox.checked = this.checked;
+  }
+} 
+      
+    }
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jquery-3.5.1.min.js"></script>
