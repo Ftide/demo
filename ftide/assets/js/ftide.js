@@ -117,7 +117,7 @@ document.getElementById('all-prom').onclick = function() {
     checkbox.checked = this.checked;
   }
 }   
-/*******Form Validiation Service In All******/
+/*******Form Validiation Service In All-By Anirban******/
 function validateForm(){
     var valid = false;
     //web
@@ -139,8 +139,18 @@ function validateForm(){
     if(document.getElementById("seow").checked){
         valid = true;
     }
-    //Mobile
-	/*
+    if(valid){
+        alert("Thanks For Submitting!!!");
+    }
+    else{
+        alert("Please Select atleast one option");
+        return false;
+    }
+}
+//Mobile
+function validateForm2(){
+    var valid = false;
+	
     if(document.getElementById("msmap").checked){
         valid = true;
     }
@@ -159,7 +169,17 @@ function validateForm(){
     if(document.getElementById("mmeow").checked){
         valid = true;
     }
-    //Desktop
+    if(valid){
+        alert("Thanks For Submitting!!!");
+    }
+    else{
+        alert("Please Select atleast one option");
+        return false;
+    }
+}
+//Desktop
+function validateForm3(){
+    var valid = false;
     if(document.getElementById("wsmap").checked){
         valid = true;
     }
@@ -178,7 +198,20 @@ function validateForm(){
     if(document.getElementById("wseow").checked){
         valid = true;
     }
+    if(valid){
+        alert("Thanks For Submitting!!!");
+    }
+    else{
+        alert("Please Select atleast one option");
+        return false;
+    }
+}
     //Promote
+function validateForm4(){
+    var valid = false;
+    if(document.getElementById("wsmap").checked){
+        valid = true;
+    }
     if(document.getElementById("logod").checked){
         valid = true;
     }
@@ -215,8 +248,7 @@ function validateForm(){
     if(document.getElementById("spone").checked){
         valid = true;
     }
-    */
-    if(valid){
+	    if(valid){
         alert("Thanks For Submitting!!!");
     }
     else{
@@ -224,3 +256,4 @@ function validateForm(){
         return false;
     }
 }
+    
