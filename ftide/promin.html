@@ -224,7 +224,56 @@
     checkbox.checked = this.checked;
   }
 } 
-      
+       //Promote
+function validateForm4(){
+    var valid = false;
+    if(document.getElementById("wsmap").checked){
+        valid = true;
+    }
+    if(document.getElementById("logod").checked){
+        valid = true;
+    }
+    if(document.getElementById("mseop").checked){
+        valid = true;
+    }
+    if(document.getElementById("sme").checked){
+        valid = true;
+    }
+    if(document.getElementById("leadg").checked){
+        valid = true;
+    }
+    if(document.getElementById("conm").checked){
+        valid = true;
+    }
+    if(document.getElementById("vida").checked){
+        valid = true;
+    }
+    if(document.getElementById("bph").checked){
+        valid = true;
+    }
+    if(document.getElementById("offc").checked){
+        valid = true;
+    }
+    if(document.getElementById("prev").checked){
+        valid = true;
+    }
+    if(document.getElementById("leafp").checked){
+        valid = true;
+    }
+    if(document.getElementById("bnrp").checked){
+        valid = true;
+    }
+    if(document.getElementById("spone").checked){
+        valid = true;
+    }
+	    if(valid){
+        alert("Thanks For Submitting!!!");
+    }
+    else{
+        alert("Please Select atleast one option");
+        return false;
+    }
+} 
     }
     </script>
     <!-- Optional JavaScript -->
