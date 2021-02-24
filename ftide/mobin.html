@@ -205,7 +205,16 @@
           </div><!-- eo row -->
       </div><!-- eo conatiner -->
   </footer> 
-  
+   <script>
+     {
+     document.getElementById('all-mob').onclick = function() {
+    var mobox = document.getElementsByName('mobs');
+    for (var mobox2 of mobox) {
+      mobox2.checked = this.checked;
+    }
+  }  
+     }
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="assets/js/jquery-3.5.1.min.js"></script>
