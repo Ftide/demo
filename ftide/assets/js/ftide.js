@@ -217,7 +217,7 @@ function validateForm(){
     }
     */
     if(valid){
-        alert("Thanks For Submitting");
+        alert("Thanks For Submitting!!!");
     }
     else{
         alert("Please Select atleast one option");
