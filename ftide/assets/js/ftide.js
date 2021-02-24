@@ -117,12 +117,6 @@ document.getElementById('all-prom').onclick = function() {
     checkbox.checked = this.checked;
   }
 }   
-function alert2(){
-    alert("Thanks For The Order");
-}
-function alert1(){
-    alert("Thanks For Requesting Quote");
-}
 /*******Form Validiation Service In All******/
 function validateForm(){
     var valid = false;
@@ -221,10 +215,10 @@ function validateForm(){
         valid = true;
     }
     if(valid){
-        alert("Done");
+        alert("Thanks For Submitting");
     }
     else{
-        alert("Please Select One");
+        alert("Please Select atleast one option");
         return false;
     }
 }
