@@ -140,6 +140,7 @@ function validateForm(){
         valid = true;
     }
     //Mobile
+	/*
     if(document.getElementById("msmap").checked){
         valid = true;
     }
@@ -214,6 +215,7 @@ function validateForm(){
     if(document.getElementById("spone").checked){
         valid = true;
     }
+    */
     if(valid){
         alert("Thanks For Submitting");
     }
