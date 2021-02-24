@@ -123,3 +123,5 @@ function alert2(){
 function alert1(){
     alert("Thanks For Requesting Quote");
 }
+/*******Form Validiation Service In All******/
+
