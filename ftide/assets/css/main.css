@@ -194,6 +194,9 @@ border-radius: 4px;
 .h-service-text h3{
 	text-align: center;
 }
+.h-service-text p{
+	font-size: 12px;
+}
 
 .h-reviews-sec{
 	background:url(../images/h-contact.jpg);
