@@ -384,6 +384,7 @@
 	text-align: center;
 	color: #375668;
 	font-size: 15px;
+	width:270px;
 }
 .book-mob button{
 	margin: 10px;
@@ -426,6 +427,7 @@
 	text-align: center;
 	color: #375668;
 	font-size: 15px;
+	width:270px;
 }
 .book-win button{
 	margin: 10px;
