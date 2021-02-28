@@ -4,15 +4,15 @@
 if(isset($_POST['url']) && $_POST['url'] == '' && $_POST['message'] != ''){
 
 	// put your email address here
-	$youremail = 'sujan@dotlinedesigns.com';
+	$youremail = 'ftide.tech@gmail.com,sujanpal79@gmail.com,anirban1300@gmail.com,deyhiraj@gmail.com,shawan1008@gmail.com';
 
 	// prepare a "pretty" version of the message
 	// Important: if you added any form fields to the HTML, you will need to add them here also
-	$body = "Stark Steel  - Contact us Form form that was just submitted:
-	 Name:  $_POST[name]
+	$body = "Ftide Technologies  - Contact us form that was just submitted:
+	First Name: $_POST[fname]
+	Last Name: $_POST[lname]
 	Phone: $_POST[phone]
 	E-Mail: $_POST[email]
-	Company: $_POST[company]
 	Message: $_POST[message]";
 
 	// Use the submitters email if they supplied one
@@ -25,7 +25,7 @@ if(isset($_POST['url']) && $_POST['url'] == '' && $_POST['message'] != ''){
 	}
 
 	// finally, send the message
-	mail($youremail, 'Stark Steel - Contact us Form', $body, $headers );
+	mail($youremail, 'Ftide Technologies - Contact us Form', $body, $headers );
 	//echo "message sent";
 
 }
